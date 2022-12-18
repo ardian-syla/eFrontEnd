@@ -1,5 +1,5 @@
 # EasyFrontEND
-EasyFrontEND is pure HTML/CSS made, feature's like Card's and Alert's recoded by a 17 yo fully Responsive.
+EasyFrontEND is pure HTML/CSS made, feature's like Card's and Alert's fully responsive.
 ```
 Feel free to use them in your code without any copyright
 ```
