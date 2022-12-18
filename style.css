@@ -1,0 +1,61 @@
+.gyxi{
+    padding: 24px;
+    margin: 0 50px 0 50px;
+}
+.boxes{
+    display: flex;
+    margin-left: 40px;
+    flex-direction: row;
+    gap: 25px;
+}
+.cont{
+    transition: all 0.5s ease-out;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    width: 250px;
+    text-align: center;
+    font-family: system-ui;
+}
+.cont:hover ,
+.cont:focus {
+  background-color: #fff;
+  cursor: pointer;
+  border: 3px solid rgb(0, 0, 0);
+  color: #333;
+}
+.cont:hover a,
+.cont:focus a{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+.cont a{text-decoration: none; color: white;}
+.cont p{
+    margin: 30px;
+}
+.boot, .bootWarning, .bootDanger, .bootInfo{
+    margin: 25px 40px 0; 
+    background-color: rgba(21,164,78,0.85);
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(4,89,38);
+}
+.bootInfo{background-color: #54B4D3; color: #165a70;}
+.bootDanger{background-color: #DC4C64; color: #700d1e;}
+.bootWarning{background-color: #E4A11B; color: #6d4b08;}
+.boot::selection, .bootDanger::selection, .bootWarning::selection, .bootInfo::selection{
+    background-color: white;
+    color: black;
+}
+@media screen and (max-width: 800px) {
+    .boxes{
+        flex-direction: column;
+    }
+    .cont{
+        width: 85%;
+    }
+    .gyxi{
+        margin: 0 auto;
+        padding: 0;
+    }
+}
